@@ -292,7 +292,7 @@ flex-wrap: wrap;
 }
 #col3 #o_image{
  display: flex;
-  align-items: flex-end;
+  /*align-items: flex-end;*/
   justify-content: flex-end;
 }
 #col2 blockquote {
