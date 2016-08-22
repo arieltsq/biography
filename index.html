@@ -1,56 +1,32 @@
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <title>Home</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./style.css" />
 
 </head>
 <body>
-<section id="row1">
-  <article id="header">
-  <!-- <h1> OGLIV.  <span>The Father Of Advertising</span></h1>
--->
-<img src="images/david_header.png"/>
+  <div class="wrapper">
+    <header class="header">  <img id="banner" src="images/david_header.png"/></header>
+    <aside class="aside aside-1">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a href="quotes.html">Quotes</a></li>
+      </ul>
+    </aside>
 
-  </article>
-</section>
-<section id="row2">
+    <article class="main">
+      <section class="biography">
+        <blockquote>The best ideas come as jokes. Make your thinking as funny as possible. </blockquote>
+      </section>
+    </article>
+    <aside class="aside aside-2"><div id="o_image"><img id="imageHeader" src="images/david_header3.png"/></div></aside>
+    <footer class="footer"><br>
+      <a href="#banner"> <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span><strong>Back to the top</strong></a>
+      <br><a class="footer" href="http://www.arieltay.com">Project by:  Ariel Tay</a>
 
-<aside id="col1">
-  <aside id="nav_bar">
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="bio.html">Bio</a></li>
-    <li><a href="quotes.html">Quotes</a></li>
-    </ul>
-  </aside>
-</aside>
-<aside id="col2">
-
-    <blockquote>The best ideas come as jokes. Make your thinking as funny as possible. </blockquote>
-
-</aside>
-
-<aside id="col3">
-  <div id="o_image">
-      <img src="images/david_header3.png"/>
-    </div>
-</aside>
-
-
-</section>
-
-<!-- <footer>
-<p> This is footer</p>
-
-</footer> -->
-
+    </footer>
+  </div>
 </body>
 </html>
-<script>
-document.write('<script src="http://'
-  + (location.host || 'localhost').split(':')[0]
-  + ':35729/livereload.js"></'
-  + 'script>')
-  </script>
